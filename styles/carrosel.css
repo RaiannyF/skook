@@ -63,13 +63,6 @@
     font-weight: 700;
     text-decoration: none;
 }
-.button-ancor:active {
-    background-color: var(--azul);
-}
-.card:hover {
-    scale: 1.1;
-    transition: 0.3s;
-}
 
 @media screen and (min-width: 1024px) {
     .carrosel-titulo {
@@ -91,6 +84,13 @@
     .card {
         width: 40%;
         margin: 2em auto;
+    }
+    .button-ancor:active {
+        background-color: var(--azul);
+    }
+    .card:hover {
+        scale: 1.1;
+        transition: 0.3s;
     }
 }
 

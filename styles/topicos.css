@@ -24,10 +24,6 @@
     font-size: 14px ;
     font-weight: 700;
 }
-.topicos-link:hover {
-    color: var(--laranja);
-    background-color: var(--branco);
-}
 
 @media screen and (min-width: 1024px) {
     .topicos {
@@ -38,6 +34,10 @@
     } 
      .topicos-item {
         margin: 2.2em 0.5em;
+    }
+    .topicos-link:hover {
+        color: var(--laranja);
+        background-color: var(--branco);
     }
 }
 
